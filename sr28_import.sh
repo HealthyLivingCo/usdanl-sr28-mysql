@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # first download and unzip USDA National Nutrient Database (Release SR-28) ASCII version
-wget https://www.ars.usda.gov/SP2UserFiles/Place/12354500/Data/SR/SR28/dnload/sr28asc.zip
+wget https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/dnload/sr28asc.zip
 unzip ./sr28asc.zip
 
 # transform all data files from DOS to UNIX file format
